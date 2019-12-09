@@ -47,16 +47,16 @@ def replaceIPAddress(envVariable, newIPAddress):
 
 
 if __name__ == '__main__':
-	if len(sys.argv) > 1:
-		print(sys.argv[1])
+	#if len(sys.argv) > 1:
+	#	print(sys.argv[1])
 
-    var = str(sys.argv[1])
+    #var = str(sys.argv[1])
+	print ("Hello")
+	var = "No"
 
 	if var == "IP":
-        envVariable = str(sys.argv[2]) # environment Variable
-        newIPAddress = str(sys.argv[3]) # New IP address
-        replaceIPAddress(envVariable, newIPAddress)
-
-    if var == "Content" :
-        print('')
-    pass
+		pass
+        #envVariable = str(sys.argv[2]) # environment Variable
+        #newIPAddress = str(sys.argv[3]) # New IP address
+        #replaceIPAddress(envVariable, newIPAddress)
+	pass
